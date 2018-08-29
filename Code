@@ -105,12 +105,12 @@ contract ExhibitToken is StandardToken {
     // This is a constructor function 
     // which means the following function name has to match the contract name declared above
     function ExhibitToken() {
-        balances[msg.sender] = 38000000000000000000000000;               
-        totalSupply = 38000000000000000000000000;                        
+        balances[msg.sender] = 18000000000000000000000000;               
+        totalSupply = 18000000000000000000000000;                        
         name = "ExhibitToken";                                   
         decimals = 18;                                               
-        symbol = "EXIT";                                             
-        unitsOneEthCanBuy = 105000;                                      
+        symbol = "EXBT";                                             
+        unitsOneEthCanBuy = 16000;                                      
         fundsWallet = msg.sender;                                    
     }
 
